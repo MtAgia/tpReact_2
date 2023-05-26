@@ -1,10 +1,10 @@
 import React from 'react'
 
-function App() {
+function App(props) {
   
   return (
     <>
-      
+      <h1>hello {props.amigo}</h1>
     </>
   )
 }
